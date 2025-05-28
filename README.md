@@ -2,7 +2,10 @@
 
 ## 🚀 About Me
 
-I'm the founder of **Kowd Tech**, where we’re building tools and experiences to help the next generation thrive in tech. My background includes leading as the Web Development Instructor at **Ironhack**, and I'm currently working as an **AI Educator** at **Code for All**, making artificial intelligence education more accessible to all. I’m passionate about teaching, building meaningful software, and exploring how technology can create impact at scale.
+- 👨‍💼 Founder of **[Kowd Tech](https://kowd.tech)** – building tools and experiences for the next generation of tech professionals.
+- 🎓 Former Web Development Lead Instructor at **Ironhack** – guided and mentored aspiring developers.
+- 🤖 Currently an **AI Educator** at **[Code for All](https://www.codeforall.org)** – making AI education accessible and practical.
+- 💡 Passionate about teaching, impactful software development, and the intersection of tech and education.
 
 ---
 
@@ -28,4 +31,5 @@ I'm the founder of **Kowd Tech**, where we’re building tools and experiences t
 
 ---
 
-Feel free to explore my repositories and reach out if you're interested in collaborating or learning more about my work.
+Feel free to reach out if you're interested in collaborating or learning more about my work.
+
