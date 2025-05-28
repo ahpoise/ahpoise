@@ -3,7 +3,7 @@
 ## 🚀 About Me
 
 - 👨‍💼 Founder of **[Kowd Tech](https://kowd.tech)** – building tools and experiences for the next generation of tech professionals.
-- 🎓 Former Web Development Lead Instructor at **Ironhack** – guided and mentored aspiring developers.
+- 🎓 Former Web Development Lead Teacher at **Ironhack** – guided and mentored aspiring developers.
 - 🤖 Currently an **AI Educator** at **[Code for All](https://www.codeforall.com)** lecturing the course AI for Programmers – making AI education accessible and practical.
 - 💡 Passionate about teaching, impactful software development, and the intersection of tech and education.
 
