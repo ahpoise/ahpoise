@@ -10,7 +10,7 @@ I'm the founder of **Kowd Tech**, where we’re building tools and experiences t
 
 <!-- GitHub stats card -->
 ![João's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ahpoise&count_private=true&theme=dark&hide_border=true)
-![João's GitHub Stats](https://streak-stats.demolab.com?user=ahpoise&theme=highcontrast&hide_border=true&exclude_days=Sun%2CSat%&starting_year=2024)
+![João's GitHub Stats](https://streak-stats.demolab.com?user=ahpoise&theme=highcontrast&hide_border=true&exclude_days=Sun%2CSat)
 
 ---
 
