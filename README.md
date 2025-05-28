@@ -17,7 +17,7 @@ I'm the founder of **Kowd Tech**, where we’re building tools and experiences t
 ## 🛠️ Tech Stack
 
 <!-- Use Skillicons.dev for a visual display of your stack -->
-![Tech Stack](https://skillicons.dev/icons?i=aws,cloudflare,css,docker,express,fastapi,firebase,gcp,git,github,graphql,html,jest,js,mongodb,nextjs,nodejs,php,postman,python,react,terraform,ts,vercel,vscode,vite)
+![Tech Stack](https://skillicons.dev/icons?i=aws,cloudflare,css,docker,express,fastapi,firebase,gcp,git,github,graphql,html,jest,js,mongodb,nextjs,nodejs,php,postman,python,react,terraform,ts,vercel,vscode,vite&theme=dark)
 
 ---
 
