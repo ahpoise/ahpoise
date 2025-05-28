@@ -1,33 +1,29 @@
-# 👋 Hello, I'm João Morgado
+# 👋 Hi, I'm João Morgado
 
 ## 🚀 About Me
 
-I'm the founder of **Kowd Tech**, a company dedicated to empowering the next generation of tech professionals. Previously, I served as the Web Development Lead Instructor at **Ironhack**, where I mentored aspiring developers. Currently, I contribute as an AI Educator at **Code for All**, aiming to make AI education accessible to everyone.:contentReference[oaicite:11]{index=11}
+I'm the founder of **Kowd Tech**, where we’re building tools and experiences to help the next generation thrive in tech. My background includes leading as the Web Development Instructor at **Ironhack**, and I'm currently working as an **AI Educator** at **Code for All**, making artificial intelligence education more accessible to all. I’m passionate about teaching, building meaningful software, and exploring how technology can create impact at scale.
 
-## 🏆 Achievements
-
-- **Arctic Code Vault Contributor**: :contentReference[oaicite:13]{index=13}
-- **Quickdraw**: :contentReference[oaicite:16]{index=16}
-- **YOLO**: :contentReference[oaicite:19]{index=19}:contentReference[oaicite:21]{index=21}
-
-## 🛠️ Tech Stack
-
-![Tech Stack](https://skillicons.dev/icons?i=python,html,css,javascript,react,nodejs,git,github)
+---
 
 ## 📈 GitHub Stats
 
-![João's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ahpoise&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=radical)
+<!-- GitHub stats card -->
+![João's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ahpoise&count_private=true&theme=dark&hide_border=true)
 
-## 📌 Featured Repositories
+---
 
-- [ahpoise](https://github.com/ahpoise/ahpoise)
-- [lab-javascript-book-objects](https://github.com/ahpoise/lab-javascript-book-objects)
+## 🛠️ Tech Stack
+
+<!-- Use Skillicons.dev for a visual display of your stack -->
+![Tech Stack](https://skillicons.dev/icons?i=html,css,js,ts,react,nodejs,python,git,github,vscode,figma)
+
+---
 
 ## 📫 Connect with Me
 
-- [LinkedIn](https://www.linkedin.com/in/joao-morgado)
-- [Kowd Tech](https://kowd.tech)
-- [Code for All](https://www.codeforall.org)
+- 🌐 [kowd.tech](https://kowd.tech) – My company
+- 💼 [LinkedIn](https://www.linkedin.com/in/joao-morgado) – Let’s connect professionally
 
 ---
 
