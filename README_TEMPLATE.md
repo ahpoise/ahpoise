@@ -1,8 +1,8 @@
 # 👋 Hi, I'm João Morgado
 
-## 🎯 Dual Expertise: Education & Development
+## /// Dual Expertise: Education & Development
 
-### **Technical Education & Training**
+### // **Technical Education & Training**
 
 _@ Code for All, Ironhack and B2B_
 
@@ -10,7 +10,7 @@ _@ Code for All, Ironhack and B2B_
 - Led full-stack web development bootcamps, training hundreds of developers through intensive programs
 - Curriculum development and hands-on learning experiences in modern web technologies and AI integration
 
-### **AI & IT Consulting**
+### •• **AI & IT Consulting**
 
 _Founder @ Kowd Tech, Software Engineering Manager @ Radically Digital, CTO @ GCI & more_
 
@@ -20,7 +20,7 @@ _Founder @ Kowd Tech, Software Engineering Manager @ Radically Digital, CTO @ GC
 
 ---
 
-## 🚀 Currently Working On
+## /// Currently Working On
 
 - Building AI-powered solutions @ Kowd Tech
 - Teaching AI & Developing AI education curriculum @ Code for All
@@ -28,13 +28,13 @@ _Founder @ Kowd Tech, Software Engineering Manager @ Radically Digital, CTO @ GC
 
 ---
 
-## 🛠️ Tech Stack
+## /// Tech Stack
 
 ![Tech Stack](https://skillicons.dev/icons?i=aws,cloudflare,css,docker,express,fastapi,firebase,gcp,git,github,graphql,html,jest,js,mongodb,nextjs,nodejs,php,postman,python,react,terraform,ts,vercel,vscode,vite&theme=dark)
 
 ---
 
-## 📈 GitHub Stats
+## /// GitHub Stats
 
 ![João's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ahpoise&count_private=true&theme=dark&hide_border=true)
 
@@ -42,7 +42,7 @@ _Founder @ Kowd Tech, Software Engineering Manager @ Radically Digital, CTO @ GC
 
 ---
 
-## 📫 Connect with Me
+## /// Connect with Me
 
 - 🌐 [kowd.tech](https://kowd.tech) – My company
 - 💼 [LinkedIn](https://www.linkedin.com/in/joao-morgado) – Let's connect professionally
