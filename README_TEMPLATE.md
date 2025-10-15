@@ -38,7 +38,7 @@ _Founder @ Kowd Tech, Software Engineering Manager @ Radically Digital, CTO @ GC
 
 ![João's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ahpoise&count_private=true&theme=dark&hide_border=true)
 
-![João's GitHub Stats](https://https://github-readme-streak-stats-umber-xi.vercel.app?user=ahpoise&theme=highcontrast&hide_border=true&exclude_days=Sun%2CSat&starting_year=<!--YEAR-->)
+![João's GitHub Stats](https://github-readme-streak-stats-umber-xi.vercel.app?user=ahpoise&theme=highcontrast&hide_border=true&exclude_days=Sun%2CSat&starting_year=<!--YEAR-->)
 
 ---
 
