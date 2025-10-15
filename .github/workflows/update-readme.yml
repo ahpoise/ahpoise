@@ -1,0 +1,106 @@
+name: Update README with Dynamic Year
+
+on:
+  schedule:
+    # Runs at 01:00 UTC on January 1st every year (1 hour after midnight)
+    - cron: "0 1 1 1 *"
+  workflow_dispatch: # Allows manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup pre-commit hook
+        run: |
+          # Create the pre-commit hook directory
+          mkdir -p .git/hooks
+
+          # Create the pre-commit hook
+          cat > .git/hooks/pre-commit << 'EOF'
+          #!/bin/bash
+
+          # Pre-commit hook to update year in README.md
+          echo "🔄 Pre-commit hook: Checking README.md for year update..."
+
+          # Check if README.md is being committed
+          if git diff --cached --name-only | grep -q "README.md"; then
+              echo "📝 README.md is being committed, checking for year placeholder..."
+              
+              # Check if the year placeholder exists
+              if grep -q "<!--YEAR-->[0-9]\{4\}<!--\/YEAR-->" README.md; then
+                  # Calculate the year before current
+                  LAST_YEAR=$(($(date +%Y) - 1))
+                  echo "🔄 Updating year to: $LAST_YEAR"
+                  
+                  # Create a temporary file for the update
+                  TEMP_FILE=$(mktemp)
+                  cp README.md "$TEMP_FILE"
+                  
+                  # Update the year placeholder
+                  sed "s/<!--YEAR-->[0-9]\{4\}<!--\/YEAR-->/<!--YEAR-->$LAST_YEAR<!--\/YEAR-->/g" "$TEMP_FILE" > README.md
+                  
+                  # Verify the replacement was successful
+                  if grep -q "<!--YEAR-->$LAST_YEAR<!--\/YEAR-->" README.md; then
+                      echo "✅ Year successfully updated to $LAST_YEAR"
+                      
+                      # Add the updated README.md to the commit
+                      git add README.md
+                      echo "📝 Updated README.md added to commit"
+                  else
+                      echo "❌ Failed to update year"
+                      rm "$TEMP_FILE"
+                      exit 1
+                  fi
+                  
+                  # Clean up
+                  rm "$TEMP_FILE"
+              else
+                  echo "ℹ️ No year placeholder found in README.md"
+              fi
+          else
+              echo "ℹ️ README.md not being committed, skipping year update"
+          fi
+
+          echo "✅ Pre-commit hook completed"
+          exit 0
+          EOF
+
+          # Make the hook executable
+          chmod +x .git/hooks/pre-commit
+          echo "✅ Pre-commit hook installed and made executable"
+
+      - name: Trigger commit to update year
+        run: |
+          # Configure git
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # Check if README.md has the year placeholder
+          if grep -q "<!--YEAR-->[0-9]\{4\}<!--\/YEAR-->" README.md; then
+              echo "📝 Year placeholder found, triggering commit..."
+              
+              # Stage README.md (this will trigger the pre-commit hook)
+              git add README.md
+              
+              # Commit (pre-commit hook will update the year before commit)
+              LAST_YEAR=$(($(date +%Y) - 1))
+              git commit -m "chore: update streak stats year to $LAST_YEAR" || {
+                  echo "ℹ️ No changes to commit (year already up to date)"
+                  exit 0
+              }
+              
+              # Push the changes
+              git push
+              echo "✅ Successfully committed and pushed year update"
+          else
+              echo "ℹ️ No year placeholder found in README.md, nothing to update"
+          fi

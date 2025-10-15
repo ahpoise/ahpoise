@@ -1,0 +1,7 @@
+# Generate README.md from template before commit
+echo "🔄 Pre-commit: Generating README.md from template..."
+./scripts/generate-readme.sh
+
+# Add generated README.md to commit
+git add README.md
+echo "📝 Generated README.md added to commit"
