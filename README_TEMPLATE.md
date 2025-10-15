@@ -10,7 +10,7 @@ _@ Code for All, Ironhack and B2B_
 - Led full-stack web development bootcamps, training hundreds of developers through intensive programs
 - Curriculum development and hands-on learning experiences in modern web technologies and AI integration
 
-### •• **AI & IT Consulting**
+### // **AI & IT Consulting**
 
 _Founder @ Kowd Tech, Software Engineering Manager @ Radically Digital, CTO @ GCI & more_
 
