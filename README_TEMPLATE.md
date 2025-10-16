@@ -30,7 +30,7 @@ _Founder @ Kowd Tech, Software Engineering Manager @ Radically Digital, CTO @ GC
 
 ## /// Tech Stack
 
-![Tech Stack](https://skillicons.dev/icons?i=aws,cloudflare,css,docker,express,fastapi,firebase,gcp,git,github,graphql,html,jest,js,mongodb,nextjs,nodejs,php,postman,python,react,terraform,ts,vercel,vscode,vite&theme=dark)
+![Tech Stack](https://skillicons.dev/icons?i=bash,aws,dynamodb,cloudflare,css,docker,express,fastapi,firebase,gcp,git,github,graphql,html,jest,js,mongodb,nginx,nextjs,nodejs,php,postman,py,react,terraform,tailwind,ts,vercel,vscode,vite&theme=dark)
 
 ---
 
